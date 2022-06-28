@@ -68,8 +68,8 @@ describe("GRADING FETCH CALL TEST: ", function () {
 
    it("Student selects planet at random", function() {
        console.log(studentPlanet)
-       //expect(studentPlanet.includes("Math.random()")).toBeTrue;
-       expect(planetsResponse.includes(studentFunctions.pickPlanet(planetsResponse))).toBeTrue();
+       expect(studentPlanet.includes("Math.random()")).toBeTrue;
+       //expect(planetsResponse.includes(studentFunctions.pickPlanet(planetsResponse))).toBeTrue();
    })
 
    it("Student calls addDestinationInfo inside script", function() {
